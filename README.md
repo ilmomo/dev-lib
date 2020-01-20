@@ -6,9 +6,8 @@
 
 연재 여부를 비롯해 각종 코멘트를 추가하실 수 있습니다.
 
-[참고 레파지토리: { 고퀄리티 ⚡️ 개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
-
-[다시 보는 2019 한국의 주요 IT 개발 컨퍼런스 모음](https://www.44bits.io/ko/post/replay-2019-korea-tech-development-conferences)
+- [참고 레파지토리: { 고퀄리티 ⚡️ 개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
+- [다시 보는 2019 한국의 주요 IT 개발 컨퍼런스 모음](https://www.44bits.io/ko/post/replay-2019-korea-tech-development-conferences)
 
 ## Mobile Front-end
 
@@ -26,7 +25,7 @@
   > 매년 발표되는 JavaScript 개발자의 설문 조사를 통해서 생태계의 현황을 정리한 글로 올해는 2만여 명의 JavaScript 개발자가 설문에 참여했다. 지역별 연봉, 프레임워크, 테스트 도구, 백엔드, 모바일 등 다양한 영역에서 어떤 도구를 주로 사용하고 있는지를 보여주고 있다.
 - [신입 프론트엔드 개발자가 되려면 무엇을 학습해야 하나요?](https://jbee.io/essay/for_junior_frontend_developer/)
 - [최신 브라우저의 내부 살펴보기 1 - CPU, GPU, 메모리 그리고 다중 프로세스 아키텍처](https://d2.naver.com/helloworld/2922312)
-> 4부 연재물
+  > 4부 연재물
 - [프론트엔드 기술 조감도 : Babel](https://ahnheejong.name/articles/frontend-birds-eye-view-babel/)
 - [Front-End Performance Checklist 2020 \[PDF, Apple Pages, MS Word\]](https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/)
 - [Relearn CSS layout](https://every-layout.dev/) 
@@ -107,7 +106,7 @@ https://ant.design/
 ### Test
 
 - [📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (August 2019)](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme.kr.md)
-> 테스트 관련 황금율과 기초 테스트 구성에 대한 설명을 한 뒤 백엔드/프론트엔드의 테스트 방법을 설명하고 테스트 품질측정과 CI에 대해서 정리해 놓은 글의 한국어 번역 글이다. 관련 사례와 예제 코드까지 잘 정리되어 있다.
+  > 테스트 관련 황금율과 기초 테스트 구성에 대한 설명을 한 뒤 백엔드/프론트엔드의 테스트 방법을 설명하고 테스트 품질측정과 CI에 대해서 정리해 놓은 글의 한국어 번역 글이다. 관련 사례와 예제 코드까지 잘 정리되어 있다.
 - [Unit Test (단위 테스트) 에 관한 생각](https://gregor77.github.io/2019/08/16/about-unit-test/)
 
 ### CI/CD
@@ -118,7 +117,7 @@ https://ant.design/
 ### Docker
 
 - [초보를 위한 도커 안내서 - 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
-> 3부 연재물
+  > 3부 연재물
 - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)
 - [도커 컨테이너는 가상머신인가요? 프로세스인가요?](https://www.44bits.io/ko/post/is-docker-container-a-virtual-machine-or-a-process)
 - [Docker 개발환경의 구축](https://brunch.co.kr/@sokoban/30?fbclid=IwAR1X7fmpq-fmjaG0t4LhQpjTZzbV67yJML0v5zhb-fJU9Hcwb3FTICSZ5us#comment)
