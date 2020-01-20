@@ -50,12 +50,12 @@
 
 ### Web UI Kit 서비스 몇 개
 
-http://elemental-ui.com/
-https://developer.microsoft.com/en-us/fabric#/
-https://atlaskit.atlassian.com/
-https://evergreen.segment.com/
-https://polaris.shopify.com/
-https://ant.design/
+- http://elemental-ui.com/
+- https://developer.microsoft.com/en-us/fabric#/
+- https://atlaskit.atlassian.com/
+- https://evergreen.segment.com/
+- https://polaris.shopify.com/
+- https://ant.design/
 
 ## Mordern Javascript / Funtional Programming
 
