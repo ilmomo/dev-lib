@@ -1,4 +1,4 @@
-# dev-lib
+# 1. dev-lib
 
 > 일단모인모임 개발 관련 글 모음
 > 공식문서부터 중요도, 신뢰도에 따라 내림차순으로 작성해 주시면 됩니다.
@@ -7,17 +7,50 @@
 - [참고 레파지토리: { 고퀄리티 ⚡️ 개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
 - [다시 보는 2019 한국의 주요 IT 개발 컨퍼런스 모음](https://www.44bits.io/ko/post/replay-2019-korea-tech-development-conferences)
 
-## Mobile Front-end
+# 2. Table of contents
 
-### Android
+<!-- TOC -->
+
+- [dev-lib](#dev-lib)
+- [Table of contents](#table-of-contents)
+    - [Mobile Front-end](#mobile-front-end)
+        - [Android](#android)
+        - [iOS](#ios)
+    - [Web Front-end](#web-front-end)
+        - [React](#react)
+        - [Vue.js](#vuejs)
+        - [PWA](#pwa)
+        - [SSR(Server Side Rendering)](#ssrserver-side-rendering)
+        - [Web UI Kit 서비스 몇 개](#web-ui-kit-서비스-몇-개)
+    - [Mordern Javascript / Funtional Programming](#mordern-javascript--funtional-programming)
+    - [Back-end](#back-end)
+        - [Node.js](#nodejs)
+        - [GraphQL](#graphql)
+        - [Microservice](#microservice)
+    - [DevOps](#devops)
+        - [Architecture](#architecture)
+        - [Test](#test)
+        - [CI/CD](#cicd)
+        - [Docker](#docker)
+        - [Kubernetes/ Docker Swarm](#kubernetes-docker-swarm)
+        - [Terraform](#terraform)
+        - [Github Action](#github-action)
+    - [ETC](#etc)
+        - [English](#english)
+
+<!-- /TOC -->
+
+# 2.1. Mobile Front-end
+
+## 2.1.1. Android
 
 - []()
 
-### iOS
+## 2.1.2. iOS
 
 - []()
 
-## Web Front-end
+# 2.2. Web Front-end
 
 - [The State of JavaScript 2019](https://2019.stateofjs.com/)
   > 매년 발표되는 JavaScript 개발자의 설문 조사를 통해서 생태계의 현황을 정리한 글로 올해는 2만여 명의 JavaScript 개발자가 설문에 참여했다. 지역별 연봉, 프레임워크, 테스트 도구, 백엔드, 모바일 등 다양한 영역에서 어떤 도구를 주로 사용하고 있는지를 보여주고 있다.
@@ -32,20 +65,20 @@
 - [처음 만나는 Svelte](https://ui.toast.com/weekly-pick/ko_20191002/)
 - [정적 사이트 생성기 Gatsby](https://blog.outsider.ne.kr/1426)
 
-### React
+## 2.2.1. React
 
-### Vue.js
+## 2.2.2. Vue.js
 
-### PWA
+## 2.2.3. PWA
 
 - [Service workers: the little heroes behind Progressive Web Apps](https://www.freecodecamp.org/news/service-workers-the-little-heroes-behind-progressive-web-apps-431cc22d0f16/)
   > PWA의 핵심인 Service Worker의 특징과 사용방법을 설명한 글이다. Service Worker의 라이프사이클과 캐싱, 백그라운드 싱크, 푸시 등 아주 쉽게 설명되어 있다.
 
-### SSR(Server Side Rendering)
+## 2.2.4. SSR(Server Side Rendering)
 
 - [Next.js (SSR) vs. Create React App (CSR)](https://codeburst.io/next-js-ssr-vs-create-react-app-csr-7452f71599f6)
 
-### Web UI Kit 서비스 몇 개
+## 2.2.5. Web UI Kit 서비스 몇 개
 
 - http://elemental-ui.com/
 - https://developer.microsoft.com/en-us/fabric#/
@@ -54,17 +87,17 @@
 - https://polaris.shopify.com/
 - https://ant.design/
 
-## Mordern Javascript / Funtional Programming
+# 2.3. Mordern Javascript / Funtional Programming
 
 - [자바스크립트 코딩 테스트에서 가장 많이하는 실수들](https://medium.com/%EC%98%A4%EB%8A%98%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%A7%8E%EC%9D%B4%ED%95%98%EB%8A%94-%EC%8B%A4%EC%88%98%EB%93%A4-a10df2c884c)
 - [기존의 사고 방식을 깨부수는 함수형 사고](https://evan-moon.github.io/2019/12/15/about-functional-thinking/)
 - [변하지 않는 상태를 유지하는 방법, 불변성(Immutable)](https://evan-moon.github.io/2020/01/05/what-is-immutable/)
 
-## Back-end
+# 2.4. Back-end
 
 - [🦀 러스트의 멋짐을 모르는 당신은 불쌍해요](https://parksb.github.io/article/35.html)
 
-### Node.js
+## 2.4.1. Node.js
 
 - [Monitoring Node.js: Watch Your Event Loop Lag!](https://davidhettler.net/blog/event-loop-lag/)
   > Node.js 애플리케이션의 성능을 개선하기 위해서 이벤트 루프 동작 방식에서 이벤트를 스케쥴링하고 실행할 때까지의 시간을 계산하는 event loop lag을 어떻게 탐지하는지를 설명하고 있다. 비동기로 실행되지만 논 블록킹 코드는 아니라서 메인 스레드의 event loop lag에 영향을 주는 bcryptjs 예시로 lag이 어떻게 달라지는지 보여주고 네이티브 애드온으로 개발된 bcrypt에서 lag을 개선하는 과정을 보여주고 있다.(영어)
@@ -80,12 +113,12 @@
 - [자바스크립트와 이벤트 루프](https://meetup.toast.com/posts/89)
 - [Don’t block the event loop! 매끄러운 경험을 위한 JavaScript 비동기 처리](https://engineering.linecorp.com/ko/blog/dont-block-the-event-loop/?fbclid=IwAR3N1tg4mL2rnd0YMaecKSD-DMHKLqKT55YoGIORqO7sijIXD307ZWYAAjU)
 
-### GraphQL
+## 2.4.2. GraphQL
 
 - [(번역) Thinking in GraphQL](https://blog.cometkim.kr/posts/thinking-in-graphql-ko/)
 - [GraphQL is not just a network protocol](https://blog.cometkim.kr/posts/graphql-is-not-just-a-network-protocol/)
 
-### Microservice
+## 2.4.3. Microservice
 
 - [Microservice Architecture at Medium](https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f)
 - [마이크로 서비스는 왜 그렇게 인기가 있을까?](https://medium.com/@giljae/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%83%9D%EA%B0%81%ED%95%B4%EB%B3%B4%EA%B8%B0-1529a94e624e)
@@ -94,24 +127,24 @@
 - [마이크로 서비스에서 분산 트랜잭션](https://medium.com/@giljae/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90%EC%84%9C-%EB%B6%84%EC%82%B0-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-347af5136c87)
 - [Load Balancer 비교](https://medium.com/@giljae/load-balancer-%EB%B9%84%EA%B5%90-c537247b699f)
 
-## DevOps
+# 2.5. DevOps
 
-### Architecture
+## 2.5.1. Architecture
 
 - [\[번역\] 최신 네트워크 로드 밸런싱 및 프록시 소개](https://ziwon.dev/post/modern-network-load-balancing-and-proxying/)
 
-### Test
+## 2.5.2. Test
 
 - [📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (August 2019)](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme.kr.md)
   > 테스트 관련 황금율과 기초 테스트 구성에 대한 설명을 한 뒤 백엔드/프론트엔드의 테스트 방법을 설명하고 테스트 품질측정과 CI에 대해서 정리해 놓은 글의 한국어 번역 글이다. 관련 사례와 예제 코드까지 잘 정리되어 있다.
 - [Unit Test (단위 테스트) 에 관한 생각](https://gregor77.github.io/2019/08/16/about-unit-test/)
 
-### CI/CD
+## 2.5.3. CI/CD
 
 - [카카오뱅크 모바일앱 DevOps](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T05-S03.pdf)
   > [동영상(45"13)](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_105_03_m1.mp4)
 
-### Docker
+## 2.5.4. Docker
 
 - [초보를 위한 도커 안내서 - 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
   > 3부 연재물
@@ -120,7 +153,7 @@
 - [Docker 개발환경의 구축](https://brunch.co.kr/@sokoban/30?fbclid=IwAR1X7fmpq-fmjaG0t4LhQpjTZzbV67yJML0v5zhb-fJU9Hcwb3FTICSZ5us#comment)
 - [도커 컴포즈를 활용하여 완벽한 개발 환경 구성하기](https://www.44bits.io/ko/post/how-docker-image-work)
 
-### Kubernetes/ Docker Swarm
+## 2.5.5. Kubernetes/ Docker Swarm
 
 - [Docker Swarm을 이용한 쉽고 빠른 분산 서버 관리](https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html)
 - [쿠버네티스 시작하기 - Kubernetes란 무엇인가?](https://subicura.com/2019/05/19/kubernetes-basic-1.html)
@@ -129,9 +162,9 @@
 - [kubernetes를 이용한 서비스 무중단 배포](https://tech.kakao.com/2018/12/24/kubernetes-deploy/)
 - [\[번역\] 쿠버네티스 네트워킹 이해하기#1: Pods](https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/)
 
-### Terraform
+## 2.5.6. Terraform
 
-### Github Action
+## 2.5.7. Github Action
 
 - [Automating your workflow with GitHub Actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions)
 - [GitHub 작업을 사용 하 여 App Service에 배포](https://docs.microsoft.com/ko-kr/azure/app-service/deploy-github-actions)
@@ -143,9 +176,9 @@
 - [Github Actions#1](https://medium.com/wantedjobs/github-actions-1-515ac7d68fc0)
   > 5부 연재물
 
-## ETC
+# 2.6. ETC
 
-### English
+## 2.6.1. English
 
 - [\[번역\]github에서 자주 쓰이는 영어 정리](https://tagilog.tistory.com/588?fbclid=IwAR1MVz0k51QWEHE_tULg3GQbpB3mjedSakwIFGEHgeDavrE1o6ZYQzLCacc)
 - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
