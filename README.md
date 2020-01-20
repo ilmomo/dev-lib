@@ -7,6 +7,7 @@
 연재 여부를 비롯해 각종 코멘트를 추가하실 수 있습니다.
 
 [참고 레파지토리: { 고퀄리티 ⚡️ 개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
+
 [다시 보는 2019 한국의 주요 IT 개발 컨퍼런스 모음](https://www.44bits.io/ko/post/replay-2019-korea-tech-development-conferences)
 
 ## Mobile Front-end
@@ -22,7 +23,7 @@
 ## Web Front-end
 
 - [The State of JavaScript 2019](https://2019.stateofjs.com/)
-> 매년 발표되는 JavaScript 개발자의 설문 조사를 통해서 생태계의 현황을 정리한 글로 올해는 2만여 명의 JavaScript 개발자가 설문에 참여했다. 지역별 연봉, 프레임워크, 테스트 도구, 백엔드, 모바일 등 다양한 영역에서 어떤 도구를 주로 사용하고 있는지를 보여주고 있다.
+  > 매년 발표되는 JavaScript 개발자의 설문 조사를 통해서 생태계의 현황을 정리한 글로 올해는 2만여 명의 JavaScript 개발자가 설문에 참여했다. 지역별 연봉, 프레임워크, 테스트 도구, 백엔드, 모바일 등 다양한 영역에서 어떤 도구를 주로 사용하고 있는지를 보여주고 있다.
 - [신입 프론트엔드 개발자가 되려면 무엇을 학습해야 하나요?](https://jbee.io/essay/for_junior_frontend_developer/)
 - [최신 브라우저의 내부 살펴보기 1 - CPU, GPU, 메모리 그리고 다중 프로세스 아키텍처](https://d2.naver.com/helloworld/2922312)
 > 4부 연재물
@@ -42,7 +43,7 @@
 ### PWA
 
 - [Service workers: the little heroes behind Progressive Web Apps](https://www.freecodecamp.org/news/service-workers-the-little-heroes-behind-progressive-web-apps-431cc22d0f16/)
-> PWA의 핵심인 Service Worker의 특징과 사용방법을 설명한 글이다. Service Worker의 라이프사이클과 캐싱, 백그라운드 싱크, 푸시 등 아주 쉽게 설명되어 있다.
+  > PWA의 핵심인 Service Worker의 특징과 사용방법을 설명한 글이다. Service Worker의 라이프사이클과 캐싱, 백그라운드 싱크, 푸시 등 아주 쉽게 설명되어 있다.
 
 ### SSR(Server Side Rendering)
 
@@ -70,15 +71,15 @@ https://ant.design/
 ### Node.js
 
 - [Monitoring Node.js: Watch Your Event Loop Lag!](https://davidhettler.net/blog/event-loop-lag/)
-> Node.js 애플리케이션의 성능을 개선하기 위해서 이벤트 루프 동작 방식에서 이벤트를 스케쥴링하고 실행할 때까지의 시간을 계산하는 event loop lag을 어떻게 탐지하는지를 설명하고 있다. 비동기로 실행되지만 논 블록킹 코드는 아니라서 메인 스레드의 event loop lag에 영향을 주는 bcryptjs 예시로 lag이 어떻게 달라지는지 보여주고 네이티브 애드온으로 개발된 bcrypt에서 lag을 개선하는 과정을 보여주고 있다.(영어)
+  > Node.js 애플리케이션의 성능을 개선하기 위해서 이벤트 루프 동작 방식에서 이벤트를 스케쥴링하고 실행할 때까지의 시간을 계산하는 event loop lag을 어떻게 탐지하는지를 설명하고 있다. 비동기로 실행되지만 논 블록킹 코드는 아니라서 메인 스레드의 event loop lag에 영향을 주는 bcryptjs 예시로 lag이 어떻게 달라지는지 보여주고 네이티브 애드온으로 개발된 bcrypt에서 lag을 개선하는 과정을 보여주고 있다.(영어)
 - [JIT-less V8](https://v8.dev/blog/jitless)
-> V8에서 JIT으로 런타임으로 실행 메모리를 할당하기 때문에 속도를 높일 수 있었지만, iOS나 스마트TV 같은 일부 플랫폼은 실행 메모리의 접근 권한을 주지 않고 이를 차단하는 것이 공격 가능성을 줄일 수 있으므로 JIT-less모드를 추가한다고 한다. 자연히 성능 저하가 발생하게 되는데, 어느 정도 성능 저하가 있는지도 같이 보여주고 있다.(영어)
+  > V8에서 JIT으로 런타임으로 실행 메모리를 할당하기 때문에 속도를 높일 수 있었지만, iOS나 스마트TV 같은 일부 플랫폼은 실행 메모리의 접근 권한을 주지 않고 이를 차단하는 것이 공격 가능성을 줄일 수 있으므로 JIT-less모드를 추가한다고 한다. 자연히 성능 저하가 발생하게 되는데, 어느 정도 성능 저하가 있는지도 같이 보여주고 있다.(영어)
 - [The cost of JavaScript in 2019](https://v8.dev/blog/cost-of-javascript-2019)
-> V8에서 JavaScript의 처리 성능을 높이는 방법에 관해 설명한 글이다. JavaScript 파일이 50 ~ 100KB가 넘으면 작은 번들로 나누는 것이 다운로드도 빠르고 CPU와 메모리 비용도 줄일 수 있고 JavaScript 파일의 실행 시간을 줄이고 인라인 스크립트는 메인 스레드가 담당하기 때문에 너무 많이 사용하지 말라고 하고 있다. 왜 이러한 부분이 실제로 빠른지도 설명하고 있는데 V8에 메인 스레드 외에 워커 스레드로 JavaScript의 실행을 나누어서 처리하기 때문에 이를 활용하면 파싱/컴파일 시간을 줄일 수 있다고 한다.(영어)
+  > V8에서 JavaScript의 처리 성능을 높이는 방법에 관해 설명한 글이다. JavaScript 파일이 50 ~ 100KB가 넘으면 작은 번들로 나누는 것이 다운로드도 빠르고 CPU와 메모리 비용도 줄일 수 있고 JavaScript 파일의 실행 시간을 줄이고 인라인 스크립트는 메인 스레드가 담당하기 때문에 너무 많이 사용하지 말라고 하고 있다. 왜 이러한 부분이 실제로 빠른지도 설명하고 있는데 V8에 메인 스레드 외에 워커 스레드로 JavaScript의 실행을 나누어서 처리하기 때문에 이를 활용하면 파싱/컴파일 시간을 줄일 수 있다고 한다.(영어)
 - [Code caching for JavaScript developers](https://v8.dev/blog/code-caching-for-devs)
-> V8에서 코드 캐싱이 동작하는 방법과 캐싱을 활용하기 위해 개발자들이 할 수 있는 방법을 설명하고 있다. 캐싱을 더 잘 이용하려면 코드나 URL, 혹은 런타임에 따라 달라지는 조건을 바꾸지 않는 것이 좋고 상황에 따라 라이브러리를 분리하거나 합쳐야 할 수도 있고 1KiB 이상만 캐싱하므로 작은 스크립트를 합치고 즉시 실행 함수 표현식을 사용하면 더 캐싱을 적극적으로 사용할 수 있다고 한다.(영어)
+  > V8에서 코드 캐싱이 동작하는 방법과 캐싱을 활용하기 위해 개발자들이 할 수 있는 방법을 설명하고 있다. 캐싱을 더 잘 이용하려면 코드나 URL, 혹은 런타임에 따라 달라지는 조건을 바꾸지 않는 것이 좋고 상황에 따라 라이브러리를 분리하거나 합쳐야 할 수도 있고 1KiB 이상만 캐싱하므로 작은 스크립트를 합치고 즉시 실행 함수 표현식을 사용하면 더 캐싱을 적극적으로 사용할 수 있다고 한다.(영어)
 - [JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)
-> V8이 JavaScript를 어떻게 최적화하는지를 보여주면서 JavaScript 코드를 작성할 때 주의해야 할 부분을 정리한 글이다. TurboFan이 60KiB 미만의 함수만 최적화를 하므로 너무 긴 함수를 만들지 말고 객체에서 가능하면 필드에 여러 타입을 섞지 말고 숫자 필드를 기본 숫자 타입인 NaN으로 초기화하라고 한다. 개별 팁보다 추적하는 과정과 V8이 동작하는 방식을 설명하는 내용이 더 유용해 보인다.(영어)
+  > V8이 JavaScript를 어떻게 최적화하는지를 보여주면서 JavaScript 코드를 작성할 때 주의해야 할 부분을 정리한 글이다. TurboFan이 60KiB 미만의 함수만 최적화를 하므로 너무 긴 함수를 만들지 말고 객체에서 가능하면 필드에 여러 타입을 섞지 말고 숫자 필드를 기본 숫자 타입인 NaN으로 초기화하라고 한다. 개별 팁보다 추적하는 과정과 V8이 동작하는 방식을 설명하는 내용이 더 유용해 보인다.(영어)
 - [로우 레벨로 살펴보는 Node.js 이벤트 루프](https://evan-moon.github.io/2019/08/01/nodejs-event-loop-workflow/index.html)
 - [자바스크립트와 이벤트 루프](https://meetup.toast.com/posts/89)
 - [Don’t block the event loop! 매끄러운 경험을 위한 JavaScript 비동기 처리](https://engineering.linecorp.com/ko/blog/dont-block-the-event-loop/?fbclid=IwAR3N1tg4mL2rnd0YMaecKSD-DMHKLqKT55YoGIORqO7sijIXD307ZWYAAjU)
@@ -112,7 +113,7 @@ https://ant.design/
 ### CI/CD
 
 - [카카오뱅크 모바일앱 DevOps](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T05-S03.pdf)
-> [동영상(45"13)](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_105_03_m1.mp4)
+  > [동영상(45"13)](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_105_03_m1.mp4)
 
 ### Docker
 
@@ -127,7 +128,7 @@ https://ant.design/
 
 - [Docker Swarm을 이용한 쉽고 빠른 분산 서버 관리](https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html)
 - [쿠버네티스 시작하기 - Kubernetes란 무엇인가?](https://subicura.com/2019/05/19/kubernetes-basic-1.html)
-> 4부 연재물
+  > 4부 연재물
 - [AWS 서비스를 활용한 Kubernetes 클러스터 구축](http://engineering.vcnc.co.kr/2019/03/kubernetes-on-aws/)
 - [kubernetes를 이용한 서비스 무중단 배포](https://tech.kakao.com/2018/12/24/kubernetes-deploy/)
 - [\[번역\] 쿠버네티스 네트워킹 이해하기#1: Pods](https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/)
@@ -144,7 +145,7 @@ https://ant.design/
 - [깃헙 액션으로 경계가 명확한 CI/CD 파이프라인 구현하기](https://blog.aliencube.org/ko/2019/12/18/building-ci-cd-pipelines-with-github-actions/)
 - [GitHub Actions로 간단히 CI 서버 대신하기](https://huns.me/posts/2019-12-17-34)
 - [Github Actions#1](https://medium.com/wantedjobs/github-actions-1-515ac7d68fc0)
-> 5부 연재물
+  > 5부 연재물
 
 ## ETC
 
