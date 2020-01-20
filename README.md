@@ -1,10 +1,8 @@
 # dev-lib
 
-일단모인모임 개발 관련 글 모음
-
-공식문서부터 중요도, 신뢰도에 따라 내림차순으로 작성해 주시면 됩니다.
-
-연재 여부를 비롯해 각종 코멘트를 추가하실 수 있습니다.
+> 일단모인모임 개발 관련 글 모음
+> 공식문서부터 중요도, 신뢰도에 따라 내림차순으로 작성해 주시면 됩니다.
+> 연재 여부를 비롯해 각종 코멘트를 추가하실 수 있습니다.
 
 - [참고 레파지토리: { 고퀄리티 ⚡️ 개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
 - [다시 보는 2019 한국의 주요 IT 개발 컨퍼런스 모음](https://www.44bits.io/ko/post/replay-2019-korea-tech-development-conferences)
@@ -33,7 +31,6 @@
 - [스타트업 서비스 개발에 도움을 줄 수 있는 Javascript 오픈 소스들](https://www.mimul.com/blog/popular_ui_javascript/)
 - [처음 만나는 Svelte](https://ui.toast.com/weekly-pick/ko_20191002/)
 - [정적 사이트 생성기 Gatsby](https://blog.outsider.ne.kr/1426)
-- []()
 
 ### React
 
