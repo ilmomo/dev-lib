@@ -7,6 +7,13 @@
 - [참고 레파지토리: { 고퀄리티 ⚡️ 개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
 - [다시 보는 2019 한국의 주요 IT 개발 컨퍼런스 모음](https://www.44bits.io/ko/post/replay-2019-korea-tech-development-conferences)
 - [두고 두고 볼만한 유튜브 채널 모음](https://velog.io/@devjang/%EB%91%90%EA%B3%A0-%EB%91%90%EA%B3%A0-%EB%B3%BC%EB%A7%8C%ED%95%9C-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%B1%84%EB%84%90-%EB%AA%A8%EC%9D%8C)
+- [Technical Interview Guidelines for beginners](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
+- [Tech Interview](https://github.com/WeareSoft/tech-interview)
+- [Tech Interviews](https://github.com/SuyashLakhotia/TechInterview)
+- [tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer)
+- [OWASP Mobile Application Security Verification Standard](https://github.com/OWASP/owasp-masvs)
+- [OWASP Mobile Security Testing Guide](https://github.com/OWASP/owasp-mstg)
 
 # 2. Table of contents
 
@@ -18,6 +25,7 @@
 - [iOS](#ios)
     - [Interview Questions](#interview-questions)
     - [View](#view)
+    - [Protocol](#protocol)
     - [Architecture](#architecture)
         - [MVVM](#mvvm)
         - [Clean Architecture](#clean-architecture)
@@ -76,12 +84,20 @@
 - [Apple Developer Documentation](https://developer.apple.com/documentation/)
 - [Documentation Archive - Guides](https://developer.apple.com/library/archive/navigation/#section=Resource%20Types&topic=Guides)
 - [공식문서 만으로 iOS 개발 배우기](https://sungdoo.dev/programming/start-ios-development-with-offical-docs/)
+- [iOS 개발자를 위한 링크 모음](https://github.com/giftbott/iOSDevLinks)
 - [Realm iOS 아카데미](https://academy.realm.io/kr/section/apple/)
 - [raywenderlich iOS & Swift Tutorials](https://www.raywenderlich.com/ios)
+- [Awesome Swift](https://github.com/matteocrippa/awesome-swift)
+- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
+- [Design Patterns implemented in Swift 5.0](https://github.com/ochococo/Design-Patterns-In-Swift)
+- [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
 
 ## 4.1. Interview Questions
 
-- []()
+- [Awesome Swift Korean Lecture 💻](https://github.com/ClintJang/awesome-swift-korean-lecture)
+- [iOS(Swift, Objc) 질문과 답변 모음](https://github.com/ClintJang/ios-swift-objc-questions-and-answers)
+- [iOSInterviewquestions](https://github.com/JeaSungLEE/iOSInterviewquestions)
+- [Swift tips & tricks ⚡️](https://github.com/JohnSundell/SwiftTips)
 - [Interview Questions — iOS](https://medium.com/@rathish/interview-questions-ios-8af45db70b20)
 - [Top IOS Interview Questions and Answers for 2019](https://medium.com/ios-expert-series-or-interview-series/top-ios-interview-questions-you-must-prepare-in-2018-e0d73be27adc)
 - [NSHipster is a journal of the overlooked bits in Objective-C, Swift, and Cocoa. Updated weekly.](https://nshipster.com/)
@@ -90,51 +106,84 @@
 
 - [iOSExample.com](https://iosexample.com/)
 - [Why The Failure, Auto Layout?](https://www.wtfautolayout.com/)
+- [view 생성사이클](http://monibu1548.github.io/2019/02/08/layout-cycle/)
 - [iOS 개발자 필독! iOS 레이아웃에서 반드시 집고 넘어가야 할것 \[총집편\]](https://itpeace.tistory.com/44)
+- [Demystifying iOS Layout](http://tech.gc.com/demystifying-ios-layout/)
+- [setNeedsLayout vs layoutIfNeeded](https://baked-corn.tistory.com/105)
 
-## 4.3. Architecture
+## 4.3. Protocol
 
-### 4.3.1. MVVM
+- [swift로 하는 protocol programming](https://blog.jisoo.net/2018/09/09/protocol-programming.html)
+
+## 4.4. Architecture
+
+- [fantastic ios architecture](https://github.com/onmyway133/fantastic-ios-architecture)
+
+### 4.4.1. MVVM
 
 - [TECH CONCERT: MOBILE 2019 - 들숨에 협업 날숨에 클린코드](https://tv.naver.com/v/9342795)
 
-### 4.3.2. Clean Architecture
+### 4.4.2. Clean Architecture
 
+- [Clean Swift Github](https://github.com/Clean-Swift)
 - [\[Naver D2\] Clean swift architecture](https://www.youtube.com/watch?v=3jRxPM3xBnY&t=526s)
 - [\[NAVER VIBE\] Architecture + Clean Swift](https://www.youtube.com/watch?v=GXAGCTsnShI&t=38s)
 
-### 4.3.3. RIBs
+### 4.4.3. RIBs
 
+- [RIBs](https://github.com/uber/RIBs)
+- [Uber Engineering](https://eng.uber.com/tag/ribs/)
+- [\[한국카카오은행\] MVC, MVVM, ReactorKit, VIPER를 거쳐 RIB 정착기](https://www.slideshare.net/MinM9510/mvc-mvvm-reactorkit-viper-rib-192788847)
+  >[동영상(26"34)](https://www.youtube.com/watch?v=3XS6xLzKRjc)
 - [\[VCNC\] Multiplatform Architecture RIBs in Swift](https://www.youtube.com/watch?v=FmnshYCDeW8)
-- []()
+- [Uber의 RIBs 프로젝트에서 얻은 경험 (1) - 프로토콜 지향 프로그래밍](http://minsone.github.io/programming/swift-ribs-protocol-oriented-programming)
+- [Uber의 RIBs 프로젝트에서 얻은 경험 (2) - 강제성](http://minsone.github.io/programming/swift-why-use-ribs)
+- [RIBs란?](https://zeddios.tistory.com/937)
+- [RIBs 시작하기 - Root 설정](https://zeddios.tistory.com/938)
+- [RIBs 시작하기 - LoggedOut RIB을 Root RIB에 붙히기](https://zeddios.tistory.com/939)
 
-## 4.4. ReactiveX
+## 4.5. ReactiveX
 
 - [ReactiveX](http://reactivex.io/intro.html)
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
-- []()
 - [RxJS Marbles](https://rxmarbles.com/)
+- [RxSwift를 스터디하는 공간](https://github.com/fimuxd/RxSwift)
+- [Martin Todorov 의 RxSwift 책 스터디](https://github.com/start-rxswift/MartinTodorovBookStudy)
+- [RxSwift+MVVM 4시간에 끝내기](https://github.com/iamchiwon/RxSwift_In_4_Hours)
 
-## 4.5. Test
+## 4.6. Test
 
-## 4.6. Debugging: LLDB
+- [iOS Unit Testing Patterns](https://github.com/ccabanero/ios-unit-testing-patterns)
+- [Awesome Unit Testing in Swift](https://github.com/oleh-zayats/awesome-unit-testing-swift)
+- [Quick: The Swift (and Objective-C) testing framework.](https://github.com/Quick/Quick/tree/master/Documentation/ko-kr)
+- [Cuckoo: Mock your Swift objects!](https://github.com/Brightify/Cuckoo)
+- [iOS 비동기 코드에 대한 테스트 방법](https://blog.jisoo.net/2018/03/21/iOS-Asynchronous-test.html)
 
+## 4.7. Debugging: LLDB
+
+- [LLDB](https://lldb.llvm.org/use/tutorial.html)
 - [About Debugging with Xcode](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/debugging_with_xcode/chapters/about_debugging_w_xcode.html#//apple_ref/doc/uid/TP40015022)
 - [About LLDB and Xcode](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/Introduction.html)
 - [About Variables Quick Look for Custom Types](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/CustomClassDisplay_in_QuickLook/Introduction/Introduction.html#//apple_ref/doc/uid/TP40014001)
 - [TECH CONCERT: MOBILE 2019 - 쉽고 재미있는 iOS 디버깅 - LLDB Command](https://tv.naver.com/v/9342804)
+- [Chisel is a collection of LLDB commands to assist debugging iOS apps](https://github.com/facebook/chisel)
+- [\[WWDC 2018\] LLDB 코드 수정 없이 Debugging 해보자!](https://hucet.tistory.com/40?category=730941)
 
-## 4.7. 기타 
+## 4.8. 기타 
 
 - [iOS-facto](https://ios-factor.com/ko/)
 - [TECH CONCERT: MOBILE 2019 - 사용자 경험을 높이는 애니메이션 만들기](https://tv.naver.com/v/9342816)
 - [SwifterSwift - A handy collection of more than 500 native Swift extensions to boost your productivity. ](http://swifterswift.com/docs/)
+- [SwiftLint](https://github.com/realm/SwiftLint)
+- [iOS Continuous CI / CD 구축해보자!](https://hucet.tistory.com/60?category=703385)
 
 # 5. Web Front-end
 
 - [The State of JavaScript 2019](https://2019.stateofjs.com/)
   >매년 발표되는 JavaScript 개발자의 설문 조사를 통해서 생태계의 현황을 정리한 글로 올해는 2만여 명의 JavaScript 개발자가 설문에 참여했다. 지역별 연봉, 프레임워크, 테스트 도구, 백엔드, 모바일 등 다양한 영역에서 어떤 도구를 주로 사용하고 있는지를 보여주고 있다.
+- [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook)
 - [신입 프론트엔드 개발자가 되려면 무엇을 학습해야 하나요?](https://jbee.io/essay/for_junior_frontend_developer/)
+- [Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 - [최신 브라우저의 내부 살펴보기 1 - CPU, GPU, 메모리 그리고 다중 프로세스 아키텍처](https://d2.naver.com/helloworld/2922312)
   >4부 연재물
 - [브라우저는 어떻게 동작하는가?](https://d2.naver.com/helloworld/59361)
@@ -203,6 +252,7 @@
 - [자바스크립트 Promise 쉽게 이해하기](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
 - [이벤트 버블링, 이벤트 캡처 그리고 이벤트 위임까지](https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/)
 - [자바스크립트 async와 await](https://joshua1988.github.io/web-development/javascript/js-async-await/)
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 - [로우 레벨로 살펴보는 Node.js 이벤트 루프](https://evan-moon.github.io/2019/08/01/nodejs-event-loop-workflow/index.html)
 - [자바스크립트와 이벤트 루프](https://meetup.toast.com/posts/89)
 - [Don’t block the event loop! 매끄러운 경험을 위한 JavaScript 비동기 처리](https://engineering.linecorp.com/ko/blog/dont-block-the-event-loop/?fbclid=IwAR3N1tg4mL2rnd0YMaecKSD-DMHKLqKT55YoGIORqO7sijIXD307ZWYAAjU)
@@ -218,6 +268,8 @@
 - [JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)
   >V8이 JavaScript를 어떻게 최적화하는지를 보여주면서 JavaScript 코드를 작성할 때 주의해야 할 부분을 정리한 글이다. TurboFan이 60KiB 미만의 함수만 최적화를 하므로 너무 긴 함수를 만들지 말고 객체에서 가능하면 필드에 여러 타입을 섞지 말고 숫자 필드를 기본 숫자 타입인 NaN으로 초기화하라고 한다. 개별 팁보다 추적하는 과정과 V8이 동작하는 방식을 설명하는 내용이 더 유용해 보인다.(영어)
 - [동시성 프로그래밍, 병렬성 프로그래밍과 비동기 프로그래밍](https://www.edwith.org/boostcourse-ios/lecture/16866/)
+- [Awesome Node.js](https://github.com/sindresorhus/awesome-nodejs)
+- [Bulletproof Node.js architecture](https://github.com/santiq/bulletproof-nodejs)
 
 ## 6.3. GraphQL
 
